@@ -5,9 +5,9 @@ export const WATCHES = [
       { 
         id: 1, 
         name: "OMEGA", 
-        price: 12500, 
-        image: "https://images.unsplash.com/photo-1677445166019-4fa91a090e49?auto=format&fit=crop&w=500&q=80", 
-        description: "Timeless elegance with a leather strap." 
+        price: 63500, 
+        image: "https://images.unsplash.com/photo-1605101232508-283d0cd4909e?auto=format&fit=crop&w=500&q=80", 
+        description: "Timeless elegance with a golden Rolex." 
       },
       { 
         id: 2, 
@@ -18,9 +18,9 @@ export const WATCHES = [
       },
       { 
         id: 3, 
-        name: "Geneva Minimalist", 
+        name: "Cartier", 
         price: 6400, 
-        image: "[https://images.unsplash.com/photo-1587836374828-cb4387061d4a?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1587836374828-cb4387061d4a?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1747995525906-b141498b8e7e?auto=format&fit=crop&w=500&q=80", 
         description: "Pure sophistication in a slim profile." 
       },
       { 
@@ -39,22 +39,29 @@ export const WATCHES = [
         id: 5, 
         name: "Oceanic Submaster", 
         price: 14200, 
-        image: "[https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=500&q=80", 
         description: "Water resistant up to 300 meters." 
       },
       { 
         id: 6, 
         name: "Chrono Speedmaster", 
         price: 9500, 
-        image: "[https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&w=500&q=80", 
         description: "Built for speed and ultimate precision." 
       },
       { 
         id: 7, 
         name: "Titanium Monaco", 
         price: 11000, 
-        image: "[https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=500&q=80", 
         description: "Lightweight titanium case with racing heritage." 
+      },
+      { 
+        id: 8, 
+        name: "Abyss Seamaster Pro", 
+        price: 11800, 
+        image: "https://hodinkee.imgix.net/uploads/images/1561041076059-wcbv1jt7e2s-50fda0865f7f7125900fc5517ba48f22/omega_h.jpg?auto=format&fit=crop&w=500&q=80", 
+        description: "Helium escape valve and ceramic rotating bezel for deep diving." 
       }
     ]
   },
@@ -62,25 +69,32 @@ export const WATCHES = [
     category: "Aviator",
     watches: [
       { 
-        id: 8, 
+        id: 9, 
         name: "Pilot Navitimer", 
         price: 10500, 
-        image: "[https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=500&q=80", 
         description: "Complex dial with flight calculation tools." 
       },
       { 
-        id: 9, 
+        id: 10, 
         name: "Sky-Dweller Stealth", 
         price: 16700, 
-        image: "[https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=500&q=80", 
         description: "Dual timezone feature for global travelers." 
       },
       { 
-        id: 10, 
+        id: 11, 
         name: "Silver Spitfire", 
         price: 7800, 
-        image: "[https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=500&q=80](https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=500&q=80)", 
+        image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=500&q=80", 
         description: "Aviation-inspired design with oversized crown." 
+      },
+      {
+      id: 12, 
+        name: "Flieger Classic Pro", 
+        price: 4500, 
+        image: "https://images.unsplash.com/photo-1652025214381-ce1aa292b850?auto=format&fit=crop&w=500&q=80", 
+        description: "Iconic Swiss luxury racing chronographs." 
       }
     ]
   }

@@ -10,6 +10,7 @@ const cartSlice = createSlice({
   name: 'cart',
   initialState,
   reducers: {
+    //1. add item to cart
     addItem: (state, action) => {
       const newItem = action.payload;
       const existingItem = state.items.find(item => item.id === newItem.id);
@@ -22,13 +23,29 @@ const cartSlice = createSlice({
           id: newItem.id,
           name: newItem.name,
           price: newItem.price,
+          image: newItem.image, // Ensure image is saved
           quantity: 1,
         });
       } else {
         existingItem.quantity++;
       }
     },
-    // We will add removeItem and updateQuantity later
+
+    //2. Remove entire item from cart
+    removeItem: (state, action) => {
+      const id = action.payload;
+      const existingItem = state.items.find(item => item.id === id);
+
+      if (existingItem) {
+        state.totalQuantity -= existingItem.quantity;
+        state.totalAmount -= (existingItem.price * existingItem.quantity);
+        state.items = state.items.filter(item => item.id !== id);
+      }
+    },
+
+    //3. Increment qiantity by 1
+
+    //4. Decrement quantity by 1
   }
 });
 
