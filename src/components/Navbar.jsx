@@ -9,15 +9,15 @@ const Navbar = () => {
         <nav className='fixed top-0 left-0 w-full bg-[#0a0a0a]/80 backdrop-blur-md border-b border-[#d4af37]/20 z-50'>
             <div className='max-w-7xl mx-auto px-6 h-20 flex justify-between items-center'>
 
-                {/* Brand logo */}
-                <div className='text-2xl font-serif text-white uppercase tracking-widest cursor-pointer'>Chrono<span className='text-[#d4af37]'>Lux</span>
+                {/* Brand logo links to Home */}
+                <Link to='/' className='text-2xl font-serif text-white uppercase tracking-widest cursor-pointer'>Chrono<span className='text-[#d4af37]'>Lux</span>
+                </Link>
 
-                </div>
                 {/* Navigation & Cart icon */}
                 <div className='flex items-center gap-8'>
-                    <span className='text-sm tracking-[0.2em] uppercase text-gray-400 hover:text-[#d4af37] cursor-pointer transition-colors'>Collection</span>
+                    <Link className='text-sm tracking-[0.2em] uppercase text-gray-400 hover:text-[#d4af37] cursor-pointer transition-colors'>Collection</Link>
                     
-                    {/* Cart Icon in top right */}
+                    {/* Cart Icon in top right - links to /cart */}
                     <Link to="/Cart" className='relative cursor-pointer group flex items-center'>
                         <svg 
                         xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" 
