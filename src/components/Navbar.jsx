@@ -1,5 +1,6 @@
 import React from 'react'
 import {useSelector} from 'react-redux';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
     //Read totalQuantity from out redux store
@@ -17,7 +18,7 @@ const Navbar = () => {
                     <span className='text-sm tracking-[0.2em] uppercase text-gray-400 hover:text-[#d4af37] cursor-pointer transition-colors'>Collection</span>
                     
                     {/* Cart Icon in top right */}
-                    <div className='relative cursor-pointer group flex items-center'>
+                    <Link to="/Cart" className='relative cursor-pointer group flex items-center'>
                         <svg 
                         xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" 
                         className="h-6 w-6 text-gray-300 group-hover:text-[#d4af37] transition-colors" 
@@ -33,7 +34,7 @@ const Navbar = () => {
                             font-bold rounded-full h-5 w-5 flex items-center justify-center animate-pulse border border-black'>
                                 {totalQuantity}</span>
                         )}
-                    </div>
+                    </Link>
                 </div>
 
             </div>
