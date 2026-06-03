@@ -15,7 +15,7 @@ const Navbar = () => {
 
                 {/* Navigation & Cart icon */}
                 <div className='flex items-center gap-8'>
-                    <Link className='text-sm tracking-[0.2em] uppercase text-gray-400 hover:text-[#d4af37] cursor-pointer transition-colors'>Collection</Link>
+                    <Link to="/" className='text-sm tracking-[0.2em] uppercase text-gray-400 hover:text-[#d4af37] cursor-pointer transition-colors'>Collection</Link>
                     
                     {/* Cart Icon in top right - links to /cart */}
                     <Link to="/Cart" className='relative cursor-pointer group flex items-center'>
